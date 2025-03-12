@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { CategoryComponent } from '../../features/category/view/category/category.component';
 import { TaskComponent } from '../../features/task/view/task/task.component';
 import { MatDividerModule } from '@angular/material/divider';

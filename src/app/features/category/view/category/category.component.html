@@ -1,1 +1,10 @@
-<p>category works!</p>
+<div class="flex flex-col justify-between h-full w-full">
+  <!-- para que main-list e colors-list sejam atualizados juntos -->
+  @if (categories$ | async) {
+    <!-- main list -->
+    <app-main-list />
+
+    <!-- colors list -->
+    <app-colors-list />
+  }
+</div>
